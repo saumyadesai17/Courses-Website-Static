@@ -1,0 +1,882 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #26335D;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 4.15rem;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.9rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #8D5CF6;
+    margin: 0;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
+/* PAGE-1 */
+
+/* NAVBAR */
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.page1::before {
+    content: '';
+    background-color: #8D5CF6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    margin: 2vh 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li a {
+    padding: 0 1.5rem 0 0;
+}
+
+.joinus {
+    border: 1px solid #FF7B52;
+    border-radius: 5px;
+    background-color: #FF7B52;
+    margin: 0 0 0 45px;
+    padding: 15px 25px;
+}
+
+.arrow {
+    margin-left: 15px;
+}
+
+/* NAVBAR END */
+.getquotenow,
+.learnmore {
+    border: 1px solid #FF7B52;
+    background-color: #FF7B52;
+    padding: 1.1rem 2.9rem;
+    border-radius: 5px;
+}
+
+.learnmore {
+    background-color: transparent;
+}
+
+.p1div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91.6vh;
+    width: 100vw;
+    gap: 40px;
+}
+
+.p1p {
+    text-align: center;
+}
+
+.menu {
+    display: none;
+}
+
+.twobuttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+    gap: 0.7rem;
+}
+
+/* PAGE-2 */
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+.subdiv2 {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.cards {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.imgp2 {
+    height: 76px;
+    width: 70px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 2.5rem 2.9rem;
+    height: fit-content;
+    width: 16.5rem;
+}
+
+.card2,
+.card4 {
+    margin-top: 2.9rem;
+}
+
+.card3 {
+    color: white;
+    border: 1px solid #8D5CF6;
+    background-color: #8D5CF6;
+}
+
+.card3 p {
+    color: white;
+    padding: 0;
+}
+
+.red {
+    border: 2px solid #E74040;
+    background-color: #E74040;
+    height: 2px;
+    width: 50px;
+}
+
+.card1 p,
+.card2 p,
+.card4 p {
+    color: #737373;
+    padding: 0;
+}
+
+/* PAGE-3 */
+.page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+.subdiv3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin: 0 auto;
+}
+
+.cardsp3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.1rem;
+}
+
+.contentheading {
+    color: #252B42;
+}
+
+.cardsp3 p,
+.sales {
+    color: #737373;
+}
+
+
+.p3card1,
+.p3card2,
+.p3card3,
+.p3card4 {
+    background-color: white;
+    height: fit-content;
+    width: 22.5rem;
+}
+
+.p3img {
+    height: 22rem;
+    width: 22.5rem;
+}
+
+.sale {
+    color: white;
+    background-color: #E74040;
+    border: 1px solid #E74040;
+    border-radius: 0.21rem;
+    position: absolute;
+    margin: 1.4rem 0 0 1.4rem;
+    padding: 0 0.7rem;
+    font-size: 1rem;
+}
+
+.likebasketeye {
+    display: flex;
+    position: absolute;
+    margin: 17rem 4.6% 0 4.6%;
+    gap: 0.7rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    padding: 1.8rem 1.8rem 2.5rem 1.8rem;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    background-color: #26335D;
+    border: 2px solid #26335D;
+    border-radius: 1.45rem;
+    padding: 0.4rem;
+    gap: 0.4rem;
+}
+
+.rating h6 {
+    color: white;
+    padding: 0;
+}
+
+.prices {
+    display: flex;
+    gap: 0.4rem;
+}
+
+.greyprice {
+    color: #BDBDBD;
+}
+
+.orangeprice {
+    color: #FF7B52;
+}
+
+.p3learnmore {
+    display: flex;
+    align-items: center;
+    border: 1px solid #8D5CF6;
+    border-radius: 37px;
+    background-color: white;
+    color: #8D5CF6;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    width: 10.5rem;
+    gap: 0.7rem;
+}
+
+
+/* PAGE-4 */
+.page4 {
+    display: flex;
+    justify-content: center;
+    padding: 11.43rem 0;
+}
+
+.subdiv4 {
+    display: flex;
+    justify-content: center;
+    gap: 14vw;
+    width: 70vw;
+}
+
+.page4text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.page45red {
+    border: 1px solid #E74040;
+    background-color: #E74040;
+    height: 0.5rem;
+    width: 6.7rem;
+}
+
+.learnmorep4 {
+    display: flex;
+    align-items: center;
+    color: #8D5CF6;
+    gap: 0.7rem;
+}
+
+
+/* PAGE-5 */
+.page5 {
+    display: flex;
+    justify-content: center;
+    padding: 11.43rem 0;
+}
+
+.subdiv5 {
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
+    width: 70vw;
+}
+
+.page5text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0 1rem;
+}
+
+.page5text p {
+    padding-right: 1rem;
+}
+
+.video {
+    border-radius: 1.43rem;
+}
+
+.playbutton {
+    position: absolute;
+    padding: 9.65rem 14.85rem;
+    z-index: 1;
+    border: transparent;
+    background-color: transparent;
+}
+
+
+/* PAGE-6 */
+.page6 {
+    display: flex;
+    justify-content: center;
+    padding: 11.43rem 0;
+}
+
+.subdiv6 {
+    display: flex;
+    flex-direction: column;
+    gap: 6.85rem;
+    width: 70vw;
+}
+
+.p6cards {
+    display: flex;
+    gap: 2.15rem;
+}
+
+.p6card1,.p6card2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.07rem;
+    padding: 1.8rem;
+}
+
+.person {
+    height: auto;
+    width: 9.15rem;
+    border-radius: 14.3rem;
+}
+
+.p6cards h5 {
+    color: #252B42;
+}
+
+.p6cards h6 , .p6cards p {
+    color: #737373;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    gap: 0.35rem;
+}
+
+
+/* PAGE-7 */
+.page7 {
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0;
+}
+
+.subdiv7 {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    width: 70vw;
+}
+
+.p7cards {
+    display: flex;
+    gap: 2.15rem;
+}
+
+.p7card1,.p7card2,.p7card3,.p7card4 {
+    background-color: white;
+    border-radius: 1.43rem;
+    width: 23%;
+}
+
+.teachers {
+    border-radius: 1.43rem 1.43rem 0 0;
+    height: auto;
+    width: 100%;
+}
+
+.p7text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 2.15rem;
+}
+
+.p7text h5 {
+    color: #252B42;
+}
+
+.p7text p {
+    color: #737373;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    gap: 1.43rem;
+}
+
+.socialbutton {
+    border: transparent;
+    background-color: transparent;
+}
+
+
+/* PAGE-8 */
+.page8 {
+    display: flex;
+    justify-content: center;
+    padding: 11.43rem 0;
+}
+
+.subdiv8 {
+    display: flex;
+    flex-direction: column;
+    gap: 5.7rem;
+}
+
+.p8text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: center;
+}
+
+.inputemail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.type {
+    border: none;
+    width: 45vw;
+    padding: 1.6rem;
+    outline: none;
+}
+
+.subscribe {
+    border: none;
+    background-color: #8D5CF6;
+    padding: 0 2rem;
+}
+
+
+/* PAGE-9 */
+.page9 {
+    display: flex;
+    justify-content: center;
+    padding: 3.6rem 0;
+}
+
+.subdiv9 {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.15rem;
+    width: 80vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.43rem;
+}
+
+.insidecontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.flexaddress {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.flexaddress h6 {
+    color: white;
+}
+
+
+/* MEDIA-QUERIES */
+
+@media (max-width: 350px) {
+
+    /* PAGE-8 */
+    .inputemail {
+        gap: 2rem;
+    }
+
+    .subscribe {
+        padding: 25px;
+    }
+}
+
+@media (max-width:550px) {
+    h1 {
+        font-size: 3.5rem;
+        padding: 0 1rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    .login,
+    .joinus {
+        display: none;
+    }
+
+    .menu {
+        display: inline-block;
+        border: transparent;
+        background-color: transparent;
+    }
+
+    .menuimg {
+        filter: invert(1);
+        height: 20px;
+        width: 20px;
+    }
+
+    .button {
+        font-size: 0.5rem;
+    }
+
+    /* PAGE-2 */
+
+    .text {
+        text-align: center;
+    }
+
+    .content h5,
+    .content h6,
+    .content p {
+        padding: 0;
+    }
+
+    /* PAGE-5 */
+    .subdiv5 {
+        width: auto;
+    }
+
+    /* PAGE-7 */
+    .p7cards {
+        padding: 0 1rem;
+    }
+
+    .p7card1,.p7card2,.p7card3,.p7card4 {
+        height: auto;
+        width: 60vw;
+    }
+
+    .teachers {
+        width: 10%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* PAGE-4 */
+    .student {
+        height: auto;
+        width: 85vw;
+    }
+
+    .page45red {
+        height: 0.3rem;
+        width: 4rem;
+    }
+
+    /* PAGE-5 */
+    .video {
+        height: auto;
+        width: 85vw;
+    }
+
+    .play {
+        height: auto;
+        width: 15vw;
+    }
+
+    .playbutton {
+        height: auto;
+        width: 15vw;
+        padding: 23% 35%;
+    }
+
+}
+
+@media (max-width: 670px) {
+
+    /* PAGE-2 */
+
+    .cards {
+        padding: 0 2rem;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+        height: fit-content;
+        width: 80%;
+    }
+
+    .card2,
+    .card4 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 900px) {
+
+    /* PAGE-1 */
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .mid {
+        display: none;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    /* PAGE-4 */
+
+    .subdiv4 {
+        flex-wrap: wrap;
+    }
+
+    /* PAGE-5 */
+    .subdiv5 {
+        flex-wrap: wrap-reverse;
+        gap: 7rem;
+    }
+
+    /* PAGE-6 */
+    .subdiv6 {
+        width: auto;
+        align-items: center;
+    }
+
+    .p6cards {
+        flex-wrap: wrap;
+        width: 65vw;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 1390px) {
+
+    /* PAGE-3 */
+
+    .p3card1,
+    .p3card2,
+    .p3card3,
+    .p3card4 {
+        width: 250px;
+    }
+
+    .p3img {
+        width: 250px;
+    }
+
+    .likebasketeye {
+        margin-left: 3.5%;
+    }
+
+    .subdiv4 {
+        gap: 7rem;
+    }
+
+    /* PAGE-7 */
+    .subdiv7 {
+        width: auto;
+    }
+
+    .p7cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 2rem;
+    }
+
+    .p7card1,.p7card2,.p7card3,.p7card4 {
+        width: 18rem;
+    }
+
+    .teachers {
+        width: 18rem;
+    }
+
+    /* PAGE-9 */
+    .subdiv9 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .container h5 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .insidecontainer {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    h2 {
+        padding: 0 1rem;
+    }
+
+    h5 {
+        padding: 0 1rem;
+    }
+
+    h6 {
+        padding: 0 1rem;
+    }
+
+    p {
+        padding: 0 1rem;
+    }
+
+    /* PAGE-2 */
+    .cards {
+        padding: 0 1rem;
+    }
+
+    /* PAGE-3 */
+    .cardsp3 {
+        padding: 0 1rem;
+    }
+
+    /* PAGE-4 */
+    .page4text h2,
+    .page4text h6,
+    .page4text p {
+        padding: 0;
+    }
+
+    /* PAGE-5 */
+    .page5text h2,
+    .page5text h6,
+    .page5text p {
+        padding: 0;
+    }
+}
